@@ -1,0 +1,47 @@
+{
+  "name": "nodejs-s3-typescript",
+  "version": "2.4.5",
+  "description": "A npm package to upload your files into AWS S3 Bucket directly using nodejs",
+  "homepage": "https://github.com/siamahnaf/nodejs-s3-typescript",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "author": {
+    "name": "Siam Ahnaf",
+    "email": "mail@siamahnaf.com",
+    "url": "https://www.siamahnaf.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "nestjs-component",
+    "aws",
+    "s3",
+    "upload",
+    "typescript",
+    "file-upload",
+    "file",
+    "node-aws-s3",
+    "nodejs-s3-typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/siamahnaf/nodejs-s3-typescript",
+    "url": "https://github.com/siamahnaf/nodejs-s3-typescript"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.490.0",
+    "short-uuid": "^4.2.2"
+  }
+}
