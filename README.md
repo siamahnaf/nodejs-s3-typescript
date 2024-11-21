@@ -1,4 +1,4 @@
-# nodejs-s3-typescript
+# NodeJS S3 Typescript
 
 A npm package to upload your files into AWS S3 Bucket directly using nodejs with aws sdk version 3. If you are looking for ReactJS version try this- <a href="https://www.npmjs.com/package/react-s3-typescript">ReactJS S3 Typescript</a>
 
