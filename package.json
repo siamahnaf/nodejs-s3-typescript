@@ -1,6 +1,6 @@
 {
   "name": "nodejs-s3-typescript",
-  "version": "2.4.5",
+  "version": "3.2.6",
   "description": "A npm package to upload your files into AWS S3 Bucket directly using nodejs",
   "homepage": "https://github.com/siamahnaf/nodejs-s3-typescript",
   "main": "dist/cjs/index.js",
@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.490.0",
-    "short-uuid": "^4.2.2"
+    "short-uuid": "^4.2.2",
+    "type-teller": "^1.0.8"
   }
 }

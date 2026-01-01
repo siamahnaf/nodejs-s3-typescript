@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-black.png">
+  <img alt="Siam Ahnaf" src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-black.png" height="auto" width="240">
+</picture>
+
 # NodeJS S3 Typescript
 
 A npm package to upload your files into AWS S3 Bucket directly using nodejs with aws sdk version 3. If you are looking for ReactJS version try this- <a href="https://www.npmjs.com/package/react-s3-typescript">ReactJS S3 Typescript</a>
@@ -113,8 +119,18 @@ Read more: [https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#ca
 
 These are the available config options for calling the S3 constructor `bucketName`, `region`, `accessKeyId` and `secretAccessKey` are required. Upload will default to __root path__, if `dirName` is not specified.
 
-## License
+## Connect with me
+<div style="display: flex; align-items: center; gap: 3px;">
+<a href="https://wa.me/8801611994403"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/whatsapp.png" width="40" height="40"></a>
+<a href="https://siamahnaf.com/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/web.png" width="40" height="40"></a>
+<a href="https://www.linkedin.com/in/siamahnaf/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/linkedin.png" width="40" height="40"></a>
+<a href="https://x.com/siamahnaf198" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/x.png" width="40" height="40"></a>
+<a href="https://www.facebook.com/siamahnaf198/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/facebook.png" width="40" height="40"></a>
+<a href="https://t.me/siamahnaf198" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/telegram.png" width="40" height="40"></a>
+<a href="https://www.npmjs.com/~siamahnaf" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/npm.png" width="40" height="40"></a>
+</div>
 
-Released under [__MIT license__](https://opensource.org/licenses/MIT).
 
-[Back to top](#nodejs-s3-typescript)
+------------
+
+<p align="center" color="red"><a href="https://www.siamahnaf.com/">www.siamahnaf.com</a></p>
